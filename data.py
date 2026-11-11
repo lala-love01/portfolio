@@ -6,12 +6,12 @@ TRANSLATIONS = {
     "contact" : "Contact"
   },
   
-  # "en":{
-  #   "home" : "Home",
-  #   "projects" : "Projects",
-  #   "skills" : "Skills",
-  #   "contact" : "Contact"
-  # }
+  "en":{
+   "home" : "Home",
+   "projects" : "Projects",
+   "skills" : "Skills",
+   "contact" : "Contact"
+ }
 }
 PROFILE = {"name": "ALCIMA Dieula", "title": "Informaticienne || Etudiante en première année de master",
            "city": "Dijon, France", "email": "dieulaalcima10@gmail.com",

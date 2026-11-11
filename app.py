@@ -1,5 +1,18 @@
 import streamlit as st
-from data import PROFILE
+from data import PROFILE, TRANSLATIONS
+
+from data import PROFILE, TRANSLATIONS
+
+with st.sidebar:
+    language = st.radio(
+        "Langue / Language",
+        ["fr", "en"],
+        format_func=lambda code: "Français" if code == "fr" else "English",
+        key="language",
+    )
+
+labels = TRANSLATIONS[language]
+    
 st.set_page_config(page_title=PROFILE["name"], page_icon="assets/lala.png", layout="wide")
 with st.sidebar:                                   # everything in this block goes to the sidebar
     st.image("assets/lala.png", width=120)
@@ -82,5 +95,6 @@ pages = [st.Page("pages/acceuil.py", title="Home", icon=":material/home:", defau
          st.Page("pages/home.py", title="About me", icon=":material/person:"),
          st.Page("pages/projects.py", title="Projects", icon=":material/code:"),
          st.Page("pages/skills.py", title="Skills", icon=":material/bar_chart:"),
-         st.Page("pages/contact.py", title="Contact", icon=":material/mail:")]
+         st.Page("pages/contact.py", title="Contact", icon=":material/mail:"),
+         st.Page("pages/lab_results.py", title="Lab Results", icon=":material/insert_chart:")]
 st.navigation(pages).run()                         # shows the menu and runs the chosen page

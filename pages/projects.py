@@ -1,7 +1,9 @@
 import streamlit as st
-from data import PROJECTS, all_tags, filter_projects
+from data import PROJECTS, TRANSLATIONS, all_tags, filter_projects
 
-st.title("Mes projets")
+language = st.session_state.get("language", "fr")
+st.title(TRANSLATIONS[language]["projects"])
+
 
 options = all_tags(PROJECTS)
 
