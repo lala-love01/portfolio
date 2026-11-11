@@ -16,7 +16,7 @@ with st.sidebar:                                   # everything in this block go
     </div>
 """, unsafe_allow_html=True)
     
-dark_mode = st.toggle("Dark mode", value=True)
+dark_mode = st.toggle("Dark mode", value=False, key="dark_mode_toggle")
 if dark_mode:
     bg_color = "#101820"
     text_color = "#F5F5F5"

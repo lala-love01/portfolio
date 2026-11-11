@@ -20,16 +20,17 @@ PROFILE = {"name": "ALCIMA Dieula", "title": "Informaticienne || Etudiante en pr
 SKILLS = {"Python": 85, "scikit-learn": 70, "SQL": 60, "Git": 65}  # niveau sur 100
 PROJECTS = [
   {"title": "Morpion avec tkinter", "description": "Un jeu graphique avec un adversaire informatique.",
-   "tags": ["Python", "GUI"], "year": 2026, "link": "https://github.com/alexmartin/tictactoe"},
+   "tags": ["Python", "GUI"], "year": 2026, "link": ""},
   
   {"title": "Morpion avec tkinter", "description": "Un jeu graphique avec un adversaire informatique.",
-     "tags": ["Python", "GUI"], "year": 2026, "link": "https://github.com/alexmartin/tictactoe"},
+     "tags": ["Python", "GUI"], "year": 2026, "link": ""},
   
   {"title": "Morpion avec tkinter", "description": "Un jeu graphique avec un adversaire informatique.",
-     "tags": ["Python", "GUI"], "year": 2026, "link": "https://github.com/alexmartin/tictactoe"},
+     "tags": ["Python", "GUI"], "year": 2026, "link": ""},
   
   {"title": "Morpion avec tkinter", "description": "Un jeu graphique avec un adversaire informatique.",
-     "tags": ["Python", "GUI"], "year": 2026, "link": "https://github.com/alexmartin/tictactoe"},
+     "tags": ["Python", "GUI"], "year": 2026, "link": ""},
+  # NB:je vais ajouter d'autres projets plus tard, donc je laisse les liens vides pour l'instant
 ]
 TIMELINE = [("2026 - 2027", "Master SIA, Université Bourgogne Europe"), ("2022 - 2025", "Licence Sciences Informatiques, Universite d'Etat d'haiti Campus Henry Christophe de Limonade")]
 

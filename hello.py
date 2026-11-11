@@ -12,5 +12,7 @@ if age <= 30:
 else:
     st.write("your age is over 30 years")
     
+    #reponse 1: le message run s'affiche a chaque fois que streamlit reexecute le script, il relanse tout de haut en bas apres chaques interaction
+    #il apparait c'est 2 fois
     # reponse 7 : on a small screan the column stack on top of reach
     
