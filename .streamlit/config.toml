@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#6b2440"            # buttons, progress bars, selected items
+backgroundColor = "#fbf8f1"
+secondaryBackgroundColor = "#efe9dc" # sidebar, input fields
+textColor = "#333333"
+
+[theme]
+
